@@ -1,5 +1,5 @@
-ARG AZURECLI_VERSION
-ARG TERRAGRUNT_VERSION
+ARG AZURECLI_VERSION=2.83.0-azurelinux3.0
+ARG TERRAGRUNT_VERSION=0.99.4
 ##############################################################################
 FROM mcr.microsoft.com/azure-cli:${AZURECLI_VERSION} AS terragrunt-builder
 
